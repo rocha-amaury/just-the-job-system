@@ -5,16 +5,15 @@ import java.util.Date;
 import java.util.List;
 
 public class Servico {
-
     private Imovel imovel;
-    private Gerente gerente;
+    private Funcionario gerente;
     private Date dataHoraCotacao;
     private double valor;
     private Date dataHoraExecucao;
-    private List<Faxineiro> equipe;
+    private List<Funcionario> equipe;
     private boolean avaliacao;
 
-    public Servico(Imovel imovel, Gerente gerente, Date dataHoraCotacao, double valor, Date dataHoraExecucao, List<Faxineiro> equipe, boolean avaliacao) {
+    public Servico(Imovel imovel, Funcionario gerente, Date dataHoraCotacao, double valor, Date dataHoraExecucao, List<Funcionario> equipe, boolean avaliacao) {
         this.imovel = imovel;
         this.gerente = gerente;
         this.dataHoraCotacao = dataHoraCotacao;

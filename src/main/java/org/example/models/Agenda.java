@@ -25,6 +25,7 @@ public class Agenda {
     private void visualizarFuncionario() {
     }
 
-    private void visualizarFuncionarios() {
+    private List<Funcionario> visualizarFuncionarios() {
+        return new ArrayList<>();
     }
 }

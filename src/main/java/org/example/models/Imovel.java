@@ -12,8 +12,10 @@ public class Imovel {
     private String cidade;
     private String estado;
     private long cep;
+    private List<Pessoa> moradores;
+    private List<Servico> servicosRealizados;
 
-    public Imovel(Cliente cliente, String logradouro, String numero, String complemento, String bairro, String cidade, String estado, long cep) {
+    public Imovel(Cliente cliente, String logradouro, String numero, String complemento, String bairro, String cidade, String estado, long cep, List<Pessoa> moradores, List<Servico> servicosRealizados) {
         this.cliente = cliente;
         this.logradouro = logradouro;
         this.numero = numero;
@@ -22,6 +24,8 @@ public class Imovel {
         this.cidade = cidade;
         this.estado = estado;
         this.cep = cep;
+        this.moradores = moradores;
+        this.servicosRealizados = servicosRealizados;
     }
 
     public Imovel() {
