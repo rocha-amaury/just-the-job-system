@@ -26,13 +26,13 @@ public class Servico {
     public Servico() {
     }
 
-    private void marcarVisitaParaCotacao(Date data, Imovel imovel, Gerente gerente) {
+    private void marcarVisitaParaCotacao(Date data, Imovel imovel, Funcionario gerente) {
     }
 
     private void marcarRealizacaoDoServico(Date data) {
     }
 
-    private void adicionarMembroAEquipe(Faxineiro faxineiro) {
+    private void adicionarMembroAEquipe(Funcionario faxineiro) {
     }
 
     private void avaliarServico(boolean nota) {
